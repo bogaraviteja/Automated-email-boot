@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <style>
+      .content {
+        padding: 0 33% 0 33%;
+        text-align: left
+      }
+      
+      .header {
+        text-align: center;
+      }
+    
+      @media only screen and (max-width: 630px) {
+        .header {
+          width: 100%;
+        }
+        
+        .content {
+          width: 100%;
+          display: block;
+          padding: 0 0 0 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td class="header">
+          <h1>
+            Fantasy Football Digest
+          </h1>
+        </td>
+      </tr>
+      <tr>
+        <td class="content">
+          {{.}}, it's time for another edition...
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
