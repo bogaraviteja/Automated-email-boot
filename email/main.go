@@ -63,7 +63,7 @@ func sendEmail() {
 
 	for _, v := range ps {
 		from := "ravitejaboga336@gmail.com"
-		appPass := "*****sender passwors***"
+		appPass := "*****sender password***"
 		to := []string{
 			v.Email,
 		}
